@@ -1,0 +1,15 @@
+shadow:
+  crate_rewards:
+    reward_1:
+      name: "Awesome Reward"
+      material: "STONE"
+      commands:
+      - "test-1"
+      - "test-2"
+    reward_2:
+      name: "Awesome Reward 2"
+      material: "EMERALD_ORE"
+      commands:
+      - "test-3"
+      - "test-4"
+      - "test-5"

@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group 'xyz.cronu'
+version '1.0-SNAPSHOT'
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+tasks.withType(Test) {
+    systemProperty "file.encoding", "UTF-8"
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url = 'https://repo.codemc.org/repository/maven-public/'
+    }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation files('lib/Spigot.jar')
+    implementation files('lib/Vault.jar')
+    implementation files('lib/FAWE.jar')
+    implementation files('lib/WorldGuard.jar')
+}

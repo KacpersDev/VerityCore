@@ -1,0 +1,41 @@
+main: xyz.cronu.veritycore.VerityCore
+version: 1.16
+api-version: 1.16
+name: VerityCore
+depend:
+  - WorldEdit
+commands:
+  tokens:
+    description: Token Base Command
+    aliases: [te, token]
+  bal:
+    description: Balance Base Command
+    aliases: [balance, money]
+  blocks:
+    description: Blocks Base Command
+    aliases: [block, b]
+  prestige:
+    description: Prestige Base Command
+    aliases: [p, rank, rankup]
+  admin:
+    description: Admin Base Command
+  key:
+    description: Crate Key Base Command
+    aliases: [cratekey, keys]
+  crates:
+    description: Crates Base Command
+    aliases: [crate, c]
+  privatemine:
+    description: Private Mine Base Command
+    aliases: [mine, mines, pm, pmine]
+  pet:
+    description: Pet Base Command
+  feed:
+    description: Feed Base Command
+  fly:
+    description: Fly Base Command
+  getpickaxe:
+    description: Get Pickaxe Base Command
+    aliases: [pickaxe]
+  newpickaxe:
+    description: New Pickaxe Base Command
